@@ -19,6 +19,7 @@ WORKDIR /home/ros
 # Build the catkin workspace
 RUN /opt/ros/indigo/bin/catkin_make
 
+ADD python_scripts /python_scripts
 USER root
 RUN apt-get update
 RUN apt-get install -y python-pip
