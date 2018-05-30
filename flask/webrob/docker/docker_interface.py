@@ -27,6 +27,7 @@ def generate_mac(user_container_name, client_name, dest, rand, t, level, end, ca
             session['secret_t'] = t + 60
             session['secret_key'] = secret
     return hashlib.sha512(secret + client_name + dest + rand + str(t) + level + str(end)).hexdigest()
+    return hashlib.sha512(secret + client_name + dest + rand + str(t) + level + str(end)).hexdigest()
 
 
 def clear_secretcache():

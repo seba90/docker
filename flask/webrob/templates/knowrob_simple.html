@@ -40,9 +40,12 @@
    <link rel="stylesheet" href="{{ url_for('static', filename='lib/jsondiff/annotated.css') }}" />
    <script type="text/javascript" src="{{ url_for('static', filename='lib/jsondiff/jsondiffpatch.min.js') }}"></script>
    <script type="text/javascript" src="{{ url_for('static', filename='lib/jsondiff/jsondiffpatch-formatters.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='lib/rdflib.min.js') }}"></script>
 
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='lib/NEEM-Visualization-Task-Tree/build/neemVisualizationTaskTree.css') }}"/>
     <script type="text/javascript" src="{{ url_for('static', filename='lib/NEEM-Visualization-Task-Tree/build/neemVisualizationTaskTree.js') }}"></script>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='lib/NEEM-Co-Occurrence-Matrix/build/neemCoOccurrenceMatrix.css') }}"/>
+<script type="text/javascript" src="{{ url_for('static', filename='lib/NEEM-Co-Occurrence-Matrix/build/neemCoOccurrenceMatrix.js') }}"></script>
 {% endblock %}
 
 {% block content %}
