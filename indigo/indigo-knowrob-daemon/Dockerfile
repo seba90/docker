@@ -13,6 +13,7 @@ RUN git clone --recursive https://github.com/knowrob/knowrob.git -b master && \
     git clone https://github.com/code-iai/iai_maps.git && \
     git clone https://github.com/code-iai/iai_common_msgs.git && \
     git clone https://github.com/code-iai/iai_cad_tools.git && \
+    git clone https://github.com/code-iai/ros_costmap.git && \
     git clone https://github.com/andreihaidu/knowrob_robcog.git
 
 WORKDIR /home/ros
